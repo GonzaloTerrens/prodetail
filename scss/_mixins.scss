@@ -1,0 +1,30 @@
+@mixin pdButton{
+	font-size: 0.83rem;
+	letter-spacing: 2px;
+	color: #74bf92;
+	background-color: $bgBtn;
+	border: 2px solid #74bf92;
+	&:not(:disabled):not(.disabled):active{
+		color: $colorWhite;
+		background-color: $bgTransparentWhite;
+		border-color: $colorWhite;
+	}
+	&:hover{
+		color: $colorLightBlue;
+	    background-color: $bgTransparentBlack;
+	}
+	&:not(:disabled):not(.disabled):active:focus{
+		color: $colorBlack;
+		background-color: $bgTransparentWhite;
+		box-shadow: none;
+	}
+}
+
+@mixin socialMedia{
+	color: $colorWhite;
+	font-size: 20px;
+	font-weight: 900;
+	font-style: Italic;
+	text-transform: uppercase;
+	line-height: 1.5;
+}

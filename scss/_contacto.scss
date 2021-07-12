@@ -1,0 +1,37 @@
+#contacto{
+	.leftCard{
+		background-image: url("../media/msj.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.form-control{
+		color: $colorLightBlue;
+		background-color: $bgTransparentBlack;
+		border-color: $colorSemiBlack;
+		&:focus{
+			color: $colorWhite;
+		    background-color: $bgTransparentBlack;
+		    border-color: #80bdff;
+		    outline: 0;
+		    box-shadow: none;
+		}
+	}
+	.msg{
+	color: #ffffff70;
+	-webkit-text-stroke: 1px black;
+	}
+	.btnForm{
+		@include pdButton;
+		font-weight: bold;
+		color: $colorLightBlue;
+		background-color: $colorSemiBlack;
+		border: none;
+	}
+	textarea{
+		resize: none;
+	}
+}
+
+
+
+

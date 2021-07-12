@@ -1,0 +1,94 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: $mainFont;
+	background-color: $colorLightBlue;
+	color: $colorBlack;
+}
+
+.logo{
+	height: 60px;
+}
+
+.navbarLogo{
+	height: 45px;
+}
+
+#logoBox{
+	background-color: $colorBlack;
+}
+
+.container{
+	max-width: 1200px;
+}
+
+.navbar-dark{
+	color: $colorLightBlue;
+	background-color: $colorSemiBlack !important;
+}
+
+.navbar-nav a{
+	color: $colorLightBlue;
+	font-size: 16px;
+	font-weight: 700;
+	display: block;
+	padding: .5rem 1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: all 0.3s;
+	&:hover{
+		color: $colorSemiBlack;
+		background: $colorLightBlue;
+	}
+}
+
+footer{
+	color: $colorLightBlue;
+	background-color: $colorSemiBlack;
+	svg{
+		fill: $colorLightBlue;
+		transform: translateY(0);
+		transition: all 0.4s;
+		&:hover{
+			transform: translateY(-10px);
+			fill: $colorGrey;
+		}
+	}
+	.navFooter{
+		a{
+			color: $colorLightBlue;
+			font-size: 12px;
+			font-weight: 700;
+			display: block;
+			padding: .5rem 0rem;
+			text-transform: uppercase;
+			text-decoration: none;
+			letter-spacing: 4px;
+			transition: all 0.4s;
+			&:hover{
+				color: $colorGrey;
+			}
+			&::before{
+				color: $colorLightBlue !important;
+				content:"/";
+				margin: 0px 16px;
+			}
+			&:nth-of-type(1)::before{
+				content:" ";
+			}
+		}
+	}
+	.bottomFoot{
+		background-color: $colorBlack;
+		a{
+			color: $colorLightBlue;
+			transition: all 0.4s;
+			&:hover{
+				color: $colorRed;
+			}
+		}
+	}
+}

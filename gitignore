@@ -3,9 +3,6 @@ Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
 
-# macOS
-.DS_Store
-
 # Folder config file
 Desktop.ini
 
@@ -27,8 +24,6 @@ logs
 
 # Dependency directories
 node_modules/
-jspm_packages/
-.vscode/
 
 # Others
 package-lock.json

@@ -1,0 +1,18 @@
+#shop{
+	.btnShop{
+		@include pdButton;
+		font-weight: bold;
+		background-color: $colorBlack;
+		border: none;
+	}
+	.card{
+		transition: all 300ms;
+		&:hover{
+			transform: scale(1.1);
+		}
+	}
+	.badge{
+		color: $colorLightBlue;
+		background-color: $colorRed;
+	}
+}

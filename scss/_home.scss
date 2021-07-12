@@ -1,0 +1,55 @@
+#main{
+	article{
+		border-bottom: 1px solid #938e91 !important;
+		&:nth-last-child(1){
+		border-bottom: none !important;
+		}
+		h5{
+			transition: all 0.3s;
+			&:hover{
+				color: #938e91;
+			}
+		}		
+	}
+	.card-title{
+		color: $colorBlack;
+		font-size: 28px;
+		font-weight: 900;
+		font-style: Italic;
+		text-transform: uppercase;
+	}
+}
+
+#socialMedia{
+	.fb{
+		@include socialMedia;
+		background-color: $colorFacebook;
+	}
+	.ig{
+		@include socialMedia;
+		background: $colorInstagram;
+	}
+	.yt{
+		@include socialMedia;
+		background-color: $colorYouTube;
+	}
+	.bgFb{
+		background-color: $colorFacebook;
+	}
+	.bgIg{
+		background: $colorInstagram;
+	}
+	.bgYt{
+		background-color: $colorYouTube;
+	}
+	.card img{
+		transition: all 0.4s;
+	}
+	.card:hover img{
+	    opacity: .823;
+	}
+	.btnSide{
+		@include pdButton;
+	}
+}
+
