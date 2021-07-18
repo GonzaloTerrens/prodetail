@@ -149,6 +149,24 @@ footer {
     background-color: #a4a1a17a;
     box-shadow: none; }
 
+.trabajos li {
+  list-style: inside;
+  list-style-image: url("../media/check.png"); }
+
+.trabajos a {
+  color: #0f0f0f;
+  transition: all 0.4s; }
+  .trabajos a:hover {
+    color: #e31b23; }
+
+.page-link {
+  color: #fff;
+  background-color: #201e1f;
+  border: 1px solid #fff; }
+  .page-link:hover {
+    color: #5bc6d0;
+    background-color: #0f0f0f; }
+
 #shop .btnShop {
   font-size: 0.83rem;
   letter-spacing: 2px;

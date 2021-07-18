@@ -1,0 +1,25 @@
+.trabajos{
+	li{
+	list-style: inside;
+	list-style-image: url("../media/check.png");
+	}
+	a{
+      color: $colorBlack;
+      transition: all 0.4s; 
+      &:hover{
+        color: #e31b23;}
+	}
+} 
+
+
+.page-link {
+    color: $colorWhite;
+    background-color: $colorSemiBlack;
+    border: 1px solid $colorWhite;
+    &:hover{
+    	color: $colorLightBlue;
+    	background-color: $colorBlack;
+    }
+}
+
+
