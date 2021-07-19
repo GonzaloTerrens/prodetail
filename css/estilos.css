@@ -167,6 +167,13 @@ footer {
     color: #5bc6d0;
     background-color: #0f0f0f; }
 
+.disabled {
+  background-color: #201e1f;
+  color: #6c757d; }
+  .disabled:hover {
+    background-color: #201e1f;
+    color: #6c757d; }
+
 #shop .btnShop {
   font-size: 0.83rem;
   letter-spacing: 2px;

@@ -11,8 +11,7 @@
 	}
 } 
 
-
-.page-link {
+.page-link{
     color: $colorWhite;
     background-color: $colorSemiBlack;
     border: 1px solid $colorWhite;
@@ -22,4 +21,12 @@
     }
 }
 
+.disabled{
+    background-color: $colorSemiBlack;
+    color: $colorGrey;
+    &:hover{
+      background-color: $colorSemiBlack;
+      color: $colorGrey;
+    }
+}
 
