@@ -73,6 +73,12 @@ footer {
       footer .bottomFoot a:hover {
         color: #e31b23; }
 
+.wsp a img {
+  width: 50px;
+  position: fixed;
+  bottom: 1.5%;
+  right: 15%; }
+
 #main article {
   border-bottom: 1px solid #938e91 !important; }
   #main article:nth-last-child(1) {
