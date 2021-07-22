@@ -83,19 +83,25 @@ footer{
 	}
 	.bottomFoot{
 		background-color: $colorBlack;
-		a{
-			color: $colorLightBlue;
-			transition: all 0.4s;
-			&:hover{
-				color: $colorRed;
-			}
-		}
 	}
 }
 
 .wsp a img{
 	width: 50px;
 	position: fixed;
-	bottom: 1.5%;
-	right: 15%;
+	bottom: 1em;
+	right: 1em;
+	transition: all 0.4s;
+	z-index:999;
+	&:hover{
+		filter: brightness(0.85);
+	}
+}
+
+.linkRed{
+	color: $colorLightBlue;
+	transition: all 0.4s;
+	&:hover{
+		color: $colorRed;
+	}	
 }

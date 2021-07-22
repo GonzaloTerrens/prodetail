@@ -67,17 +67,22 @@ footer {
       content: " "; }
   footer .bottomFoot {
     background-color: #0f0f0f; }
-    footer .bottomFoot a {
-      color: #5bc6d0;
-      transition: all 0.4s; }
-      footer .bottomFoot a:hover {
-        color: #e31b23; }
 
 .wsp a img {
   width: 50px;
   position: fixed;
-  bottom: 1.5%;
-  right: 15%; }
+  bottom: 1em;
+  right: 1em;
+  transition: all 0.4s;
+  z-index: 999; }
+  .wsp a img:hover {
+    filter: brightness(0.85); }
+
+.linkRed {
+  color: #5bc6d0;
+  transition: all 0.4s; }
+  .linkRed:hover {
+    color: #e31b23; }
 
 #main article {
   border-bottom: 1px solid #938e91 !important; }
@@ -94,6 +99,11 @@ footer {
   font-weight: 900;
   font-style: Italic;
   text-transform: uppercase; }
+
+#main .card-img-top {
+  transition: all 0.4s; }
+  #main .card-img-top:hover {
+    filter: grayscale(70%) brightness(1.21); }
 
 #socialMedia .fb {
   color: #fff;
@@ -209,6 +219,16 @@ footer {
 #shop .badge {
   color: #5bc6d0;
   background-color: #e31b23; }
+
+.modal-content {
+  background-color: #201e1f;
+  color: #5bc6d0; }
+
+.wspColor {
+  color: #25D366;
+  transition: all 300ms; }
+  .wspColor:hover {
+    color: #128C7E; }
 
 .gif {
   max-height: 37%;

@@ -16,3 +16,16 @@
 		background-color: $colorRed;
 	}
 }
+
+.modal-content{
+	background-color: $colorSemiBlack;
+	color: $colorLightBlue;
+}
+
+.wspColor{
+	color: $colorWhatsApp;
+	transition: all 300ms;
+	&:hover{
+		color: #128C7E;
+	}
+}
