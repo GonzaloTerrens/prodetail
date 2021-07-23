@@ -1,10 +1,11 @@
 .trabajos{
-	li{
-	list-style: inside;
-	list-style-image: url("../media/check.png");
-	}
-	a{
+  li{
+  list-style: inside;
+  list-style-image: url("../media/check.png");
+  }
+  a{
       color: $colorBlack;
+  }
 } 
 
 .page-link{
@@ -12,8 +13,8 @@
     background-color: $colorSemiBlack;
     border: 1px solid $colorWhite;
     &:hover{
-    	color: $colorLightBlue;
-    	background-color: $colorBlack;
+      color: $colorLightBlue;
+      background-color: $colorBlack;
     }
 }
 
@@ -25,4 +26,3 @@
       color: $colorGrey;
     }
 }
-

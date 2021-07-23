@@ -170,10 +170,7 @@ footer {
   list-style-image: url("../media/check.png"); }
 
 .trabajos a {
-  color: #0f0f0f;
-  transition: all 0.4s; }
-  .trabajos a:hover {
-    color: #e31b23; }
+  color: #0f0f0f; }
 
 .page-link {
   color: #fff;
@@ -231,8 +228,8 @@ footer {
     color: #128C7E; }
 
 .gif {
-  max-height: 37%;
-  max-width: 37%; }
+  width: 100%;
+  max-width: 421.8px; }
 
 #contacto .leftCard {
   background-image: url("../media/msj.jpg");
