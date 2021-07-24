@@ -32,6 +32,27 @@
 	}
 }
 
+.recibido{
+	color: $colorWhite;
+	-webkit-text-stroke: 1.4px $colorSemiBlack;
+}
+
+.mensaje{
+	height: 75vh;
+	background-image: url("../media/recibido.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.volver{
+	background-color: $colorRed;
+	color: $colorLightBlue;
+	&:hover{
+		background-color: $colorSemiBlack;
+		color: $colorWhite;
+	}
+}
 
 
 

@@ -23,6 +23,9 @@ body {
   color: #5bc6d0;
   background-color: #201e1f !important; }
 
+.bgBlack {
+  background-color: #0f0f0f; }
+
 .navbar-nav a {
   color: #5bc6d0;
   font-size: 16px;
@@ -275,3 +278,21 @@ footer {
 
 #contacto textarea {
   resize: none; }
+
+.recibido {
+  color: #fff;
+  -webkit-text-stroke: 1.4px #201e1f; }
+
+.mensaje {
+  height: 75vh;
+  background-image: url("../media/recibido.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.volver {
+  background-color: #e31b23;
+  color: #5bc6d0; }
+  .volver:hover {
+    background-color: #201e1f;
+    color: #fff; }
