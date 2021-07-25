@@ -296,3 +296,7 @@ footer {
   .volver:hover {
     background-color: #201e1f;
     color: #fff; }
+
+@media (max-width: 576px) {
+  .mensaje {
+    background-image: url("../media/recibidomb.jpg"); } }
